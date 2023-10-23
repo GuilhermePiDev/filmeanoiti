@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #111; 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: #fff; 
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    background-image: url(../img/teste/image\ 12.png );
+    background-size: cover; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    margin: 20px;
+    max-height: 650px;
+}
+
+.movie-container {
+    margin-top: 100px;
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+
+.textos {
+    margin: 20px;
+    padding: 30px; /* Aumentei o espaçamento interno */
+}
+
+.avaliacoes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem img{
+    height: 540px;
+    object-fit: none;
+    border-radius: 4px;   
+}
+
+.textos p {
+    margin-top: 45px;
+    line-height: 1.4; 
+    margin-bottom: 30px;
+}
+
+.button-add{
+    margin-top: 10px;
+    margin-left: 100px;
+}
